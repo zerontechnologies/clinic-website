@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. JS Bist – Skin Specialist Dehradun</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="container top-bar-inner">
+      <span>Appointments:</span>
+      <a href="tel:6396307454">+91 63963 07454</a>
+      <span class="separator">|</span>
+      <a href="tel:7830003332">+91 78300 03332</a>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-title">Dr. JS Bist</span>
+        <span class="brand-subtitle">Skin Specialist Dehradun</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html#appointment" class="btn btn-sm">Book Appointment</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <p class="eyebrow">Advanced Skin Care Clinic</p>
+        <h1>Skin Specialist in Dehradun</h1>
+        <p class="hero-text">
+          Personalized dermatology care for acne, pigmentation, hair and nail disorders,
+          and advanced cosmetic treatments.
+        </p>
+        <div class="hero-actions">
+          <a href="contact.html#appointment" class="btn">Book an Appointment</a>
+          <a href="about.html" class="btn btn-outline">Meet Dr. Bist</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/c__Users_sagar_AppData_Roaming_Cursor_User_workspaceStorage_12313950e0a2e76ed65f9e258adc020e_images_f986dad0-2071-4f8c-8a85-3309646d6edb-aa7069f9-1d43-444f-a8d3-aa7dd1a5fd0c.png" alt="Skin care consultation" />
+      </div>
+    </div>
+  </section>
+
+  <section class="info-strips">
+    <div class="container info-grid">
+      <div class="info-card">
+        <h3>Book An Appointment</h3>
+        <p>You can now book a consultation online or over the phone.</p>
+        <a href="contact.html#appointment" class="text-link">Schedule now →</a>
+      </div>
+      <div class="info-card">
+        <h3>Over 20+ Years Experience</h3>
+        <p>Evidence-based treatments with decades of clinical and teaching experience.</p>
+        <a href="about.html" class="text-link">Know more →</a>
+      </div>
+      <div class="info-card">
+        <h3>Comprehensive Skin Care</h3>
+        <p>Dermatology, cosmetology and minor procedures under one roof.</p>
+        <a href="services.html" class="text-link">View services →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <header class="section-header">
+        <h2>Services</h2>
+        <p>Holistic dermatology care for all ages.</p>
+      </header>
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="icon-circle">
+            <span class="icon">◎</span>
+          </div>
+          <h3>Acne & Acne Scars</h3>
+          <p>Customized medical and procedural treatments to control acne and minimize scarring.</p>
+          <a href="services.html#acne" class="text-link">Learn more →</a>
+        </article>
+        <article class="service-card">
+          <div class="icon-circle">
+            <span class="icon">✶</span>
+          </div>
+          <h3>Fungal Infections</h3>
+          <p>Accurate diagnosis and treatment plans for recurrent or resistant fungal infections.</p>
+          <a href="services.html#fungal" class="text-link">Learn more →</a>
+        </article>
+        <article class="service-card">
+          <div class="icon-circle">
+            <span class="icon">☼</span>
+          </div>
+          <h3>Anti-Aging & Pigmentation</h3>
+          <p>Skin rejuvenation, peels and maintenance plans for youthful, even-toned skin.</p>
+          <a href="services.html#anti-aging" class="text-link">Learn more →</a>
+        </article>
+        <article class="service-card">
+          <div class="icon-circle">
+            <span class="icon">✂</span>
+          </div>
+          <h3>Dermato-Surgery</h3>
+          <p>Removal of moles, warts, skin tags and minor skin procedures with precision.</p>
+          <a href="services.html#procedures" class="text-link">Learn more →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-split">
+    <div class="container split-grid">
+      <div class="split-left">
+        <h2>Book Appointment</h2>
+        <p>Share a few details and the clinic will confirm your slot over phone.</p>
+        <form class="appointment-form" id="home-appointment-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="home-name">Full Name *</label>
+              <input type="text" id="home-name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="home-mobile">Mobile *</label>
+              <input type="tel" id="home-mobile" name="mobile" maxlength="10" pattern="^[0-9]{10}$" placeholder="10 digit mobile number" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="home-email">Email *</label>
+              <input type="email" id="home-email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="home-date">Date *</label>
+              <input type="date" id="home-date" name="date" required />
+              <small class="hint">Closed on Sundays</small>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group full-width">
+              <label for="home-time">Time *</label>
+              <select id="home-time" name="time" required>
+                <option value="">Select preferred slot</option>
+                <option>11:00 am – 11:30 am</option>
+                <option>11:30 am – 12:00 pm</option>
+                <option>12:00 pm – 12:30 pm</option>
+                <option>12:30 pm – 1:00 pm</option>
+                <option>5:00 pm – 5:30 pm</option>
+                <option>5:30 pm – 6:00 pm</option>
+                <option>6:00 pm – 6:30 pm</option>
+                <option>6:30 pm – 7:00 pm</option>
+              </select>
+              <small class="hint">Slots between 11am–1pm &amp; 5pm–7pm</small>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group full-width">
+              <label for="home-message">Special Request</label>
+              <textarea id="home-message" name="message" rows="3" placeholder="Describe your concern (optional)"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn">Book Now</button>
+          <p class="form-note">This is a simple enquiry form. The clinic team will call to confirm your appointment.</p>
+        </form>
+      </div>
+      <div class="split-right testimonial">
+        <h2>Testimonials</h2>
+        <p>
+          “I visited Dr. Bist for chronic skin issues. He is very patient, explains everything clearly and
+          suggested a treatment that worked in a few weeks. I would highly recommend him for any skin-related problem.”
+        </p>
+        <div class="testimonial-author">
+          <div class="avatar-circle">B</div>
+          <div>
+            <strong>Bhupendra Singh</strong>
+            <span>Patient, Dehradun</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section latest-blog">
+    <div class="container">
+      <header class="section-header">
+        <h2>Latest Blog</h2>
+        <p>Skin care tips and clinic updates.</p>
+      </header>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <h3>Everyday Skin Care For Dehradun’s Climate</h3>
+          <p>
+            Learn how to protect your skin from dryness in winters and humidity in summers with a simple routine.
+          </p>
+          <a href="#" class="text-link">Coming soon</a>
+        </article>
+        <article class="blog-card">
+          <h3>When To Visit a Dermatologist</h3>
+          <p>
+            Persistent rashes, hair fall, or nail changes should not be ignored. Know when it’s time to seek help.
+          </p>
+          <a href="#" class="text-link">Coming soon</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <div class="footer-icon">✚</div>
+        <p>
+          Dedicated dermatology clinic in Dehradun offering ethical, evidence-based skin, hair and nail treatments.
+        </p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Twitter">t</a>
+          <a href="#" aria-label="Instagram">in</a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Helpful Links</h4>
+        <ul>
+          <li><a href="about.html">About Dr. JS Bist</a></li>
+          <li><a href="services.html">Skin &amp; Hair Services</a></li>
+          <li><a href="services.html#procedures">Minor Procedures</a></li>
+          <li><a href="contact.html#appointment">Book Appointment</a></li>
+          <li><a href="contact.html">Clinic Location &amp; Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-hours">
+        <h4>Opening Hours</h4>
+        <ul>
+          <li><span>Monday – Saturday</span><span>11am – 1pm</span></li>
+          <li><span></span><span>5pm – 7pm</span></li>
+          <li><span>Sunday</span><span>Closed</span></li>
+        </ul>
+        <p class="footer-contact">
+          For appointments, call<br />
+          <a href="tel:6396307454">+91 63963 07454</a><br />
+          <a href="tel:7830003332">+91 78300 03332</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© <span id="year"></span> Dr. JS Bist – Skin Care Clinic</span>
+        <span>Design inspired by modern medical websites</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
